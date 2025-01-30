@@ -1,4 +1,4 @@
-# scraping_the_skies
+# selenium-twitter-scraper
 
 ## Setup
 
@@ -9,24 +9,6 @@ pip install -r requirements.txt
 ```
 
 ## Authentication Options
-
-## If you want to change twitter scraper into bluesky change
-
-```bash
-python scraper --user=@elonmusk --password=password123
-```
-
-to
-
-```bash
-python scraper_twitter --user=@elonmusk --password=password123
-```
-
-or
-
-```bash
-python scraper_bsky --user=@elonmusk --password=password123
-```
 
 ### Using Environment Variable
 
@@ -92,7 +74,8 @@ python scraper --tweets=500   # Scrape 500 Tweets
 - Options and Arguments
 
 ```bash
-usage: python scraper [option] ... [arg] ...
+usage: python scraper_twitter [option] ... [arg] ...
+usage: python scraper_bsky [option] ... [arg] ...
 
 authentication options  description
 --user                  : Your twitter account Handle.
@@ -212,7 +195,9 @@ python scraper -t 100 -u elonmusk
     python scraper --query="(@elonmusk) min_replies:1000 until:2023-08-31 since:2020-01-01"
     ```
 
-  - Perform more `Advanced Search` using Twitter's Advanced Search, just setup the advanced query and copy the resulting string query to the program
+  - Perform more `Advanced Search` using Twitter's Advanced Search, just setup the advanced query and copy the resulting string query to the program:
+  - **[Twitter Advanced Search](https://twitter.com/search-advanced)**
+    [![Image](./img/advanced-search-01.png)](./img/advanced-search-01.png)
 
 - **Scrape Additional Data**
 
