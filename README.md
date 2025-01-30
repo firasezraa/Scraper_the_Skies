@@ -208,10 +208,6 @@ python scraper -t 100 -u elonmusk
     python scraper --query="(@elonmusk) min_replies:1000 until:2023-08-31 since:2020-01-01"
     ```
 
-  - Perform more `Advanced Search` using Twitter's Advanced Search, just setup the advanced query and copy the resulting string query to the program:
-  - **[Twitter Advanced Search](https://twitter.com/search-advanced)**
-    [![Image](./img/advanced-search-01.png)](./img/advanced-search-01.png)
-
 - **Scrape Additional Data**
 
 ```bash
