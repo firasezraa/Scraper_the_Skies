@@ -1,4 +1,4 @@
-# selenium-twitter-scraper
+## scraper_the_skies
 
 ## Setup
 
@@ -9,6 +9,19 @@ pip install -r requirements.txt
 ```
 
 ## Authentication Options
+
+## How to Change Twitter Scraper to Bsky Scraper
+
+Rename `python scraper --user=@elonmusk --password=password123` 
+
+to 
+
+`python scraper_twitter --user=@elonmusk --password=password123` for twitter
+
+or 
+
+`python scraper_bsky --user=@elonmusk --password=password123` for bsky
+
 
 ### Using Environment Variable
 
